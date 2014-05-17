@@ -17,7 +17,7 @@ class PinsController < ApplicationController
   end
 
   def create
-    @pin = current_user.pins.build(pin_params)
+    @pin.all = current_user.pins.build(pin_params)
       if @pin.save
         redirect_to @pin, notice: 'Pin was successfully created.'
       else
@@ -49,6 +49,6 @@ class PinsController < ApplicationController
     end
 
     def pin_params
-      params.require(:pin).permit(:description, :image, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"])
+      params.require(:pin).permit(:description, :image)
     end
 end
