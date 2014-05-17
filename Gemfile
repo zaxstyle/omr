@@ -27,6 +27,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.2.4'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development,:test do
 # Use sqlite3 as the database for Active Record
