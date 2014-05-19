@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/thoughtbot/paperclip.git
-  revision: 266a32a5230af67e397e92a9e8c2f314ff4fe555
+  revision: 98b31aa789a0d7f6a21c74ca32b8cc5aa94803cf
   specs:
     paperclip (4.1.1)
       activemodel (>= 3.0.0)
@@ -98,7 +98,7 @@ GEM
       activesupport (= 4.0.4)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (10.3.1)
+    rake (10.3.2)
     rdoc (4.1.1)
       json (~> 1.4)
     sass (3.2.19)
@@ -140,6 +140,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  cocaine
   coffee-rails (~> 4.0.0)
   devise (~> 3.2.4)
   jbuilder (~> 1.2)
